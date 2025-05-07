@@ -1,0 +1,68 @@
+.projects {
+  background-color: #f8fafc;
+  padding: 4rem 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #0f172a;
+  }
+
+  .subtitle {
+    color: #64748b;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    text-align: left;
+
+    h3 {
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+
+    .description {
+      margin: 0.75rem 0;
+      color: #475569;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+
+      .tool {
+        background: #e2e8f0;
+        padding: 0.3rem 0.75rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: #334155;
+      }
+    }
+
+    .link {
+      text-decoration: none;
+      color: #3b82f6;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

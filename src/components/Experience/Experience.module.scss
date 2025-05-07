@@ -1,0 +1,69 @@
+.experience {
+  background-color: #f1f5f9;
+  padding: 4rem 2rem;
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0f172a;
+  }
+
+  .timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .item {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+    h3 {
+      margin: 0 0 0.25rem;
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+
+    .company {
+      font-size: 0.95rem;
+      color: #64748b;
+      margin-bottom: 1rem;
+
+      span {
+        font-weight: 500;
+        color: #475569;
+      }
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-bottom: 1rem;
+      color: #334155;
+
+      li {
+        list-style: disc;
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      .tool {
+        background-color: #e2e8f0;
+        padding: 0.4rem 0.75rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: #334155;
+      }
+    }
+  }
+}
